@@ -1,0 +1,39 @@
+# ============================================================
+# Multi-Agent Research System
+# Tools: Tavily (web search) + BeautifulSoup (web scraping)
+# Agents: Gemini-powered, ReAct-style, built with LCEL (Runnables)
+# ============================================================
+
+# --- LangChain core (LCEL / Runnables, prompts, parsers) ---
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+
+# --- Google Gemini integration (LLM for the agents) ---
+langchain-google-genai>=2.0.0
+google-generativeai>=0.8.0
+
+# --- Tool 1: Tavily (web search) ---
+tavily-python>=0.5.0
+langchain-tavily>=0.1.0
+
+# --- Tool 2: BeautifulSoup (scraping / HTML parsing) ---
+beautifulsoup4>=4.12.0
+requests>=2.32.0
+lxml>=5.0.0
+
+# --- ReAct agent prompt hub (optional, for pulling hwchase17/react) ---
+langchainhub>=0.1.20
+
+# --- Multi-agent orchestration (optional; only if you later want graphs) ---
+# langgraph>=0.2.0
+
+# --- Config / environment variables (GOOGLE_API_KEY, TAVILY_API_KEY) ---
+python-dotenv>=1.0.0
+
+# --- Data validation / structured output ---
+pydantic>=2.7.0
+
+# --- Utilities ---
+tenacity>=8.5.0
+rich>=13.7.0
