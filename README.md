@@ -109,7 +109,3 @@ The returned `state` dictionary contains:
 - **`missing ScriptRunContext` warning:** you started the UI with `python app.py`. Use `streamlit run app.py` instead.
 - **`unexpected keyword argument 'on_step'`:** Streamlit is using an old copy of `pipeline.py`. Make sure the file is up to date, then fully restart the Streamlit process.
 - **`Inotify queue overflowed` in a Codespace or dev container:** run `streamlit run app.py --server.fileWatcherType none`, or set `fileWatcherType = "none"` under `[server]` in `.streamlit/config.toml`.
-
-## License
-
-Add a license of your choice (for example MIT) and describe it here.
