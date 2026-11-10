@@ -37,3 +37,6 @@ pydantic>=2.7.0
 # --- Utilities ---
 tenacity>=8.5.0
 rich>=13.7.0
+
+#-- For UI ----
+streamlit
