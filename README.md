@@ -1,6 +1,6 @@
 # Multi-Agent AI Research System
 
-[![Streamlit App](https://multi-agent-ai-research-system-vqjyqmqelrswxxc9dbvvbj.streamlit.app)
+🔗 **Live demo:** [Open the app](https://multi-agent-ai-research-system-vqjyqmqelrswxxc9dbvvbj.streamlit.app/)
 
 | Home | Results | Feedback |
 |------|---------|----------|
