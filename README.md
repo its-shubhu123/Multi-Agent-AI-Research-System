@@ -1,5 +1,7 @@
 # Multi-Agent AI Research System
-![App screenshot](assets/screenshot1.png)
+| Home | Results | Feedback |
+|------|---------|----------|
+| ![Home](assets/screenshot1.png) | ![Results](assets/screenshot2.png) | ![Feedback](assets/screenshot3.png) |
 
 A multi-agent pipeline that researches any topic end to end: it searches the web, scrapes the most relevant source, writes a structured report, and then has a critic agent review that report. It runs from the terminal or through a Streamlit web UI.
 
